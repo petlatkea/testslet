@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+#screen {
+  width: 100vw;
+  height: 56.25vw;
+  background-color: green;
+
+  overflow: hidden;
+  position: relative;
+}
+
+#coin0 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(coin.svg);
+  background-size: 100%;
+
+  left: 0vw;
+  top: 10vw;
+}
+
+#coin1 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(coin.svg);
+  background-size: 100%;
+
+  left: 15vw;
+  top: 5vw;
+}
+
+#coin2 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(coin.svg);
+  background-size: 100%;
+
+  left: 35vw;
+  top: 30vw;
+}
+
+#coin3 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(coin.svg);
+  background-size: 100%;
+
+  left: 50vw;
+  top: 25vw;
+}
+
+#diamond {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(diamond.svg);
+  background-size: 100%;
+
+  left: 25vw;
+  top: 20vw;
+}
+
+#bomb {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(bomb.svg);
+  background-size: 100%;
+  left: 50vw;
+  top: 35vw;
+}
+
+/* UI */
+#points {
+  position: absolute;
+  left: 90vw;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+}
+
+#points .coin {
+  display: inline-block;
+  background-image: url(coin.svg);
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+}
+
+#points .antal {
+/*  outline: 2px solid red;*/
+  font-feature-settings: tnum;
+  width: 4ex;
+  text-align: right;
+}
+
+#energy {
+  position: absolute;
+  left: 90vw;
+  top: 30px;
+  width: 4em;
+/*  outline: 2px solid red;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.heart {
+  width: 1em;
+  height: 1em;
+  background-image: url(heart.svg);
+  background-size: 100%;
+}
